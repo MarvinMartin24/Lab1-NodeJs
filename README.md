@@ -1,6 +1,6 @@
 # Lab 1 - 01_NodeJS
 
-Lab 1 is a our first lab in the NodeJs Course
+Lab 1 is our first lab in the NodeJs Course
 
 ## Installation
 
