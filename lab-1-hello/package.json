@@ -2,9 +2,9 @@
     "name": "Lab1",
     "version": "1.0.0",
     "description": "",
-    "main": "handles.js",
+    "main": "./src/handles.js",
     "scripts": {
-        "start": "./node_modules/.bin/nodemon hello.js "
+        "start": "./node_modules/.bin/nodemon ./src/hello.js "
     },
     "author": "",
     "license": "ISC",
