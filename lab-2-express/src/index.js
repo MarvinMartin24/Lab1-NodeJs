@@ -1,10 +1,7 @@
 express = require('express')
-path = require('path')
 metrics = require('./metrics')
 
 app = express()
-app.use(express.static(path.join(__dirname, 'public')))
-
 
 app.set('port', 1337)
 app.set('views', __dirname + "/view")
@@ -26,6 +23,10 @@ app.get('/metrics.json', (req, res) => {
     res.status(200).json(data)
   })
 })
+
+app.use(function(req, res) {
+  res.status(404).send('Error 404');
+});
 
 
 app.listen(
