@@ -1,7 +1,7 @@
 {
   "name": "2-typescript",
   "version": "1.0.0",
-  "description": "",
+  "description": "Marvin Martin - Lab 2 on typescript",
   "main": "sever.js",
   "scripts": {
     "build": "./node_modules/.bin/tsc",
