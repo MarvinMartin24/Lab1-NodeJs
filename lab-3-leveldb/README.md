@@ -3,8 +3,8 @@
 
 ## Overview
 
-Lab 3 is a lab to learn how to interact with [Leveldb](https://github.com/google/leveldb) .
-For the rest of the lab, to communicate with the Data Base by using [Postman](https://www.getpostman.com/) .
+Lab 3 is a lab to learn how to interact with [Leveldb](https://github.com/google/leveldb).
+For the rest of the lab, to communicate with the Data Base by using [Postman](https://www.getpostman.com/).
 
 
 ## Installation
