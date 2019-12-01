@@ -53,13 +53,13 @@ npm run pop
 
 ## Usage wit Postman
 
-# Post
+### Post
 
 You can do a *POST* to this URL to post a metric of `marvin`  :
 ```
     http://localhost:1337/metrics/marvin
 ```
-# Get
+### Get
 
 
 You can do a *GET* to this URL to see the metric of `marvin`  :
@@ -71,7 +71,7 @@ You can do a *GET* to this URL to see met the metrics of all the users:
     http://localhost:1337/metrics/
 ```
 
-# Delete
+### Delete
 
 You can do a *DELETE* to this URL to delete the metric of `marvin`  :
 ```
