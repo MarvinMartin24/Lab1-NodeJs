@@ -3,8 +3,9 @@
 
 ## Overview
 
-Lab 2 is a lab to illustrate Express in NodeJs using TypeScript.
-The goal of this lab is to create  web page using express routing.
+Lab 3 is a lab to learn how to interact with [Leveldb](https://github.com/google/leveldb) .
+For the rest of the lab, to communicate with the Data Base use [Postman](https://www.getpostman.com/) .
+
 
 ## Installation
 
@@ -42,11 +43,50 @@ With nodemon, you can deploy the web page, using `dev`.
 ```bash
 npm run dev
 ```
+### `npm run pop`
 
-## Display the Web Page
+```bash
+npm run pop
+```
+It will automatically populate your data base with same data.
+```typescript
+const met = [
+  new Metric(`${new Date('2013-11-04 14:00 UTC').getTime()}`, 12),
+  new Metric(`${new Date('2013-11-04 14:15 UTC').getTime()}`, 10),
+  new Metric(`${new Date('2013-11-04 14:30 UTC').getTime()}`, 8)
+]
+```
 
-To check out the result, Go to your [LocalHost](http://localhost:1337/)
+## Usage wit Postman
 
+# Post
+
+You can do a *POST* to this URL to post a metric of `marvin`  :
+```
+    http://localhost:1337/metrics/marvin
+```
+# Get
+
+
+You can do a *GET* to this URL to see the metric of `marvin`  :
+```
+    http://localhost:1337/metrics/marvin
+```
+You can do a *GET* to this URL to see met the metrics of all the users:
+```
+    http://localhost:1337/metrics/
+```
+
+# Delete
+
+You can do a *DELETE* to this URL to delete the metric of `marvin`  :
+```
+    http://localhost:1337/metrics/marvin
+```
+You can do a *DELETE* to this URL to delete the metrics of all the users:
+```
+    http://localhost:1337/metrics/
+```
 
 ## Contributing
 

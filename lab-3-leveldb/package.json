@@ -1,24 +1,32 @@
 {
-  "name": "2-typescript",
+  "name": "3-leveldb",
   "version": "1.0.0",
-  "description": "Marvin Martin - Lab 2 on typescript",
+  "description": "Marvin Martin - Lab 3 on leveldb",
   "main": "sever.js",
   "scripts": {
     "build": "./node_modules/.bin/tsc",
     "start": "./node_modules/.bin/ts-node src/server.ts",
-    "dev": "./node_modules/.bin/nodemon "
+    "dev": "./node_modules/.bin/nodemon",
+    "pop": "tsc && ./node_modules/.bin/ts-node bin/populate.ts"
+
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/express": "^4.17.2",
-    "@types/node": "^12.12.11",
     "@types/ejs": "^2.6.3",
+    "@types/express": "^4.17.2",
+    "@types/levelup": "^3.1.1",
+    "@types/node": "^12.12.11",
     "typescript": "^3.7.2"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
     "ejs": "^2.7.4",
+    "encoding-down": "^6.3.0",
     "express": "^4.17.1",
+    "level-ws": "^2.0.0",
+    "leveldown": "^5.4.1",
+    "levelup": "^4.3.2",
     "nodemon": "^2.0.0",
     "ts-node": "^8.5.2"
   }
