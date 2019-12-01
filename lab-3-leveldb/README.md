@@ -1,10 +1,10 @@
-# Lab-2-TypeScript
+# Lab-3-Storage
 
 
 ## Overview
 
 Lab 3 is a lab to learn how to interact with [Leveldb](https://github.com/google/leveldb) .
-For the rest of the lab, to communicate with the Data Base use [Postman](https://www.getpostman.com/) .
+For the rest of the lab, to communicate with the Data Base by using [Postman](https://www.getpostman.com/) .
 
 
 ## Installation
@@ -45,16 +45,10 @@ npm run dev
 ```
 ### `npm run pop`
 
+It will automatically populate your data base with same data.
+
 ```bash
 npm run pop
-```
-It will automatically populate your data base with same data.
-```typescript
-const met = [
-  new Metric(`${new Date('2013-11-04 14:00 UTC').getTime()}`, 12),
-  new Metric(`${new Date('2013-11-04 14:15 UTC').getTime()}`, 10),
-  new Metric(`${new Date('2013-11-04 14:30 UTC').getTime()}`, 8)
-]
 ```
 
 ## Usage wit Postman
